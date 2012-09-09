@@ -106,9 +106,9 @@ A user can be authenticated using user id and oauth token/secret
 
 
 You can handle subscriptions through the API (all devices currently known => Scale + Blood Pressure Monitor)
-  user.subscribe_notification('http://foo.bar.com', 'test subscription')
+  user.subscribe_notification('http://foo.bar.com', 'test_subscription')
 Specify what devices you are interested  
-  user.subscribe_notification('http://foo.bar.com', 'test subscription', Withings::SCALE, Withings::BLOOD_PRESSURE_MONITOR)
+  user.subscribe_notification('http://foo.bar.com', 'test_subscription', Withings::SCALE, Withings::BLOOD_PRESSURE_MONITOR)
   
   user.describe_notification('http://foo.bar.com')
   user.revoke_notification('http://foo.bar.com')
